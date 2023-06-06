@@ -41,8 +41,6 @@ class snmpServer {
         let callback = function (error, data) {
             if ( error ) {
                 console.error (error);
-            } else {
-                console.log (JSON.stringify(data, null, 2));
             }
         };
         // create agent 
