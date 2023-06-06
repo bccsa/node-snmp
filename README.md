@@ -9,7 +9,7 @@ Submodule used to monitor parameters in a nodeJS service with SNMP
 ## Environmental variables
 1. SNMP_COMUNITY - SNMP comunity to use
 2. SNMP_PORT - SNMP port (default: 161)
-3. SNMP_TTL - TTL for item added to the SNMP comunity (ms) (used by housekeeper) (default: 90000)
+3. SNMP_TTL - TTL for item added to the SNMP comunity (ms) (used by housekeeper) (default: 900000)
 4. SNMP_HOUSE_KEEPER - Interval the SNMP housekeeper shoud run (ms) (default: 1800000)
 
 ## MIB id 

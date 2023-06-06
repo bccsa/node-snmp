@@ -19,6 +19,7 @@ let tableCount = 1; // used for table id
 class snmpServer {
 
     constructor() {
+        this.ttl = process.env.SNMP_TTL || 900000
         this.snmpAgent();
         setInterval(this.housekeeper.bind(this), process.env.SNMP_HOUSE_KEEPER || 1800000)
     }
