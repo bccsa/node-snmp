@@ -47,7 +47,7 @@ class snmpServer {
         this.agent = snmp.createAgent (options, callback);
         this.mib = this.agent.getMib();
         this.authorizer = this.agent.getAuthorizer();
-        this.authorizer.addCommunity(process.env.SNMP_COMUNITY);
+        this.authorizer.addCommunity(process.env.SNMP_COMUNITY || "public");
     }
 
     /**

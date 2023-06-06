@@ -7,7 +7,7 @@ Submodule used to monitor parameters in a nodeJS service with SNMP
 3. dotenv (npm install dotenv --save)
 
 ## Environmental variables
-1. SNMP_COMUNITY - SNMP comunity to use
+1. SNMP_COMUNITY - SNMP comunity to use (default: public)
 2. SNMP_PORT - SNMP port (default: 161)
 3. SNMP_TTL - TTL for item added to the SNMP comunity (ms) (used by housekeeper) (default: 900000)
 4. SNMP_HOUSE_KEEPER - Interval the SNMP housekeeper shoud run (ms) (default: 1800000)
