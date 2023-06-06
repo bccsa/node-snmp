@@ -13,7 +13,7 @@ Submodule used to monitor parameters in a nodeJS service with SNMP
 4. SNMP_HOUSE_KEEPER - Interval the SNMP housekeeper shoud run (ms) (default: 1800000)
 
 ## MIB id 
-1. 1.3.6.1.4.1.54392.5.1464.<entry_id>
+* 1.3.6.1.4.1.54392.5.1464.<entry_id>
 
 ## Usage 
 ```js
