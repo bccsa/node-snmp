@@ -49,3 +49,11 @@ function updateData() {
     snmp.setData({ entryID: data.id, name: "ifval_to_monitor_mib", columns: snmpData, maxAccess: "read-only" });
 }
 ```
+
+## Test 
+### Prerequisites
+snmp
+
+```bash
+snmpwalk -v 2c -c "<SNMP_COMUNITY>" <host>:<port> 1.3.6.1.4.1.54392.5.1464
+```
