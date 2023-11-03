@@ -46,7 +46,7 @@ function updateData() {
      * columns: data added in prev step
      * maxAccess: type of access snmp has (read-only since module cant write back to nodejs a.t.m.)
      */
-    snmp.setData({ entryID: data.id, name: "ifval_to_monitor_mib", columns: snmpData, maxAccess: "read-only" });
+    snmp.setData({ entryID: "key", name: "ifval_to_monitor_mib", columns: snmpData, maxAccess: "read-only" });
 }
 ```
 
